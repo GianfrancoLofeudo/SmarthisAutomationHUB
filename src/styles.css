@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,800;1,900&display=swap');
+
+*, html {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: montserrat alternates;
+}
+
+
+.App{
+    margin: 0px;
+    padding: 0px;
+}
+
+.img-logo {
+    width: 100%;
+    height: auto;
+}
+
+.div-heroItem{
+    background-image: url('C:\Users\Gian\Desktop\SmarthisHUB\smarthis-hub\src\images\greenCircle.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:contain;
+}
+
+.form-login{
+    width: 100%;
+    margin: auto;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+.arrows-login-bottom, .arrows-login-top{
+    width: 200px;
+}
+.arrows-login-top{
+    transform: translate(320%, -90%);
+}
+.arrows-login-bottom{
+    transform: translate(-30%, 90%);
+}

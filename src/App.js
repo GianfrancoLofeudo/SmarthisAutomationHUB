@@ -1,25 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import "./styles.css";
+import React from "react";
+import NavBar from "./components/NavBar.js";
+import Hero from "./components/Hero.js";
+import BrandBanner from "./components/BrandBanner";
+import Brand from "./images/Bridgestone.png"
+import Automations from "./components/Automations";
+import Footer from "./components/Footer";
+import LogIn from "./components/LogIn";
 
-function App() {
+
+const App = () => {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <NavBar />
+      <BrandBanner brand={Brand} />
+      <Hero />
+      <Automations/>
+      <Footer/>
+      {/* <LogIn/> */}
     </div>
   );
-}
+};
 
 export default App;

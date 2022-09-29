@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,800;1,900&display=swap");
+
+.button-container {
+  width:100% ;
+  padding-bottom: 30px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  
+
+}
+.button-main {
+  background-color: #01FFA9; /* Green */
+  border: black 2px solid;
+  color: black;
+  padding: 3px 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  box-shadow: 3px 6px;
+  cursor: pointer;
+  
+}
+
+.button-container-secondary {
+  width:100% ;
+  padding-bottom: 20px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  
+
+}
+.button-main-secondary {
+  background-color: #01FFA9; /* Green */
+  border: white 2px solid;
+  color: black;
+  padding: 1px 6px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  box-shadow: 3px 6px;
+  cursor: pointer;
+}
