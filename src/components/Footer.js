@@ -1,7 +1,9 @@
 import React from "react";
-import { Container, Grid, Box, Link, Toolbar } from "@mui/material";
+import { Container, Grid, Box, Link, Toolbar, Icon } from "@mui/material";
 import shub from "../images/shub.png";
 import arrows from "../images/arrows.png";
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import InstagramIcon from "@mui/icons-material/Instagram";
 
 const Footer = () => {
   return (
@@ -15,61 +17,86 @@ const Footer = () => {
         display={"flex"}
         flexDirection={"row"}
       >
-        <Container maxWidth="lg">
-          <Grid container spacing={5}>
+        <Container  maxWidth="lg">
+          <Grid container spacing={5} >
             <Grid item xs={12} sm={4}>
-              <Box borderBottom={1}>HELP</Box>
+              <Box borderBottom={1} marginBottom={'10px'}>HELP</Box>
               <Box>
-                <Link href="#" color={"inherit"}>
+                <Link href="#" color={"inherit"} style={{textDecoration:'none'}}>
                   Contact
                 </Link>
               </Box>
               <Box>
-                <Link href="#" color={"inherit"}>
+                <Link href="#" color={"inherit"} style={{textDecoration:'none'}}>
                   Support
                 </Link>
               </Box>
               <Box>
-                <Link href="#" color={"inherit"}>
+                <Link href="#" color={"inherit"} style={{textDecoration:'none'}}>
                   Privacy
                 </Link>
               </Box>
             </Grid>
             <Grid item xs={12} sm={4}>
-              <Box borderBottom={1}>HELP</Box>
+              <Box marginBottom={'10px'} borderBottom={1}>Contact us</Box>
               <Box>
-                <Link href="#" color={"inherit"}>
-                  Contact
+                <Link href="#" color={"inherit"} style={{textDecoration:'none'}}>
+                  +55 11 5225 8126
                 </Link>
               </Box>
               <Box>
-                <Link href="#" color={"inherit"}>
-                  Support
+                <Link href="#" color={"inherit"} style={{textDecoration:'none'}}>
+                  +54 9 11 3691 8940
                 </Link>
               </Box>
               <Box>
-                <Link href="#" color={"inherit"}>
-                  Privacy
+                <Link href="#" color={"inherit"} style={{textDecoration:'none'}}>
+                  contact@smarthis.com.br
                 </Link>
               </Box>
             </Grid>
-            <Grid item xs={12} sm={4}>
-              <Box borderBottom={1}>HELP</Box>
-              <Box>
+            <Grid
+              display={"flex"}
+              flexDirection={"column"}
+              justifyContent={"space-around"}
+              item
+              xs={12}
+              sm={4}
+            >
+              {/* <Box borderBottom={1}>HELP</Box> */}
+              <Box padding={"10px"} alignSelf={"flex-end"}>
                 <Link href="#" color={"inherit"}>
-                  Contact
+                  <a
+                    textDecoration={"none"}
+                    target={"_blank"}
+                    href="https://www.linkedin.com/company/smarthis/mycompany/"
+                  >
+                    <LinkedInIcon
+                      style={{ fill: "#01FFA9" }}
+                      fontSize="large"
+                    ></LinkedInIcon>
+                  </a>
                 </Link>
               </Box>
-              <Box>
+              <Box padding={"10px"} alignSelf={"flex-end"}>
                 <Link href="#" color={"inherit"}>
-                  Support
+                  <a
+                    textDecoration={"none"}
+                    target={"_blank"}
+                    href="https://www.linkedin.com/company/smarthis/mycompany/"
+                  >
+                    <InstagramIcon
+                      style={{ fill: "#01FFA9" }}
+                      fontSize="large"
+                    ></InstagramIcon>
+                  </a>
                 </Link>
               </Box>
-              <Box>
+              {/* <Box>
                 <Link href="#" color={"inherit"}>
                   Privacy
                 </Link>
-              </Box>
+              </Box> */}
             </Grid>
           </Grid>
           <Box

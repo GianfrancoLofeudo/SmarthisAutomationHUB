@@ -10,10 +10,14 @@ import { motion } from "framer-motion";
 const HeroItem = ({data, img, tittle }) => {
 
   const amountCard = (tittle) => {
-    if (tittle === "Cantidad de Ideas"){
+    if (tittle === "Cantidad de Ideas" & data){
       return data.length
+    }else{
+      return <p>0</p>
     }
   }
+
+
 
   return (
     <motion.div
@@ -67,7 +71,6 @@ const HeroItem = ({data, img, tittle }) => {
               {
                 amountCard(tittle)
               }
-              
             </Typography>
           </CardContent>
           <ButtonMain msg="Ver mas" />

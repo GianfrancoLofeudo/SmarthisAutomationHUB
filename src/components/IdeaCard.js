@@ -7,11 +7,11 @@ import { motion } from "framer-motion";
 const IdeaCard = ({ proceso, sector, status }) => {
   return (
     <motion.div
-    className="div-heroItem"
-    whileHover={{ scale: 1.1 }}
-    whileTap={{
-      borderRadius: "100%",
-    }}
+      className="div-heroItem"
+      whileHover={{ scale: 1.1 }}
+      whileTap={{
+        borderRadius: "100%",
+      }}
     >
       <Card className="card-container">
         <div className="card-header">

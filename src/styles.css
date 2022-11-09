@@ -19,7 +19,7 @@
 }
 
 .div-heroItem{
-    background-image: url('C:\Users\Gian\Desktop\SmarthisHUB\smarthis-hub\src\images\greenCircle.png');
+    background-image: url("C:\Users\Gianfranco Lofeudo\Desktop\SmarthisAutomationHub\SmarthisAutomationHUB\src\images\greenCircle.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size:contain;
@@ -35,9 +35,6 @@
     justify-content: center;
     align-items: center;
 }
-
-
-
 
 .arrows-login-bottom, .arrows-login-top{
     width: 200px;

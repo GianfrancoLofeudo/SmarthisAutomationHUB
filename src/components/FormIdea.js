@@ -32,7 +32,7 @@ const CreateIdea = () => {
   return (
     <form onSubmit={handleSubmit}>
         <Container
-          sx={{ width: "100%", display: "flex", flexDirection: "column", paddingTop:'40px' }}
+          sx={{ width: "80%", display: "flex", flexDirection: "column", paddingTop:'40px' }}
           
         >
           <FormControl sx={{ padding: "10px" }} >

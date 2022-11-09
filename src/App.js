@@ -6,7 +6,8 @@ import BrandBanner from "./components/BrandBanner";
 import Brand from "./images/Bridgestone.png"
 import Automations from "./components/Automations";
 import Footer from "./components/Footer";
-import LogIn from "./components/LogIn";
+// import IdeaCard from "./components/IdeaCard";
+// import LogIn from "./components/LogIn";
 
 
 const App = () => {
@@ -17,6 +18,7 @@ const App = () => {
       <Hero />
       <Automations/>
       <Footer/>
+      
       {/* <LogIn/> */}
     </div>
   );

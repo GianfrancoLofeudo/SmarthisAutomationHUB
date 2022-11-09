@@ -14,11 +14,11 @@ const CreateIdea = () => {
 
   return (
     <div>
-      <ButtonMain
+      {/* <ButtonMain
         onClick={() => setOpen(true)}
         sx={{ margin: "25px" }}
         msg="Crear Idea"
-      />
+      /> */}
       <Button
         sx={{ margin: "0px" }}
         variant="outlined"
@@ -39,7 +39,7 @@ const CreateIdea = () => {
           sx={{ margin: "auto" }}
           id="dialog-title"
         >
-          Crea una idea
+          Creá una idea
         </DialogTitle>
         <DialogContent sx={{ display: "flex", flexDirection:"column" }}>
           <FormIdea id="dialog-description"></FormIdea>
